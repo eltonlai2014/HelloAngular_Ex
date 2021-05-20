@@ -12,12 +12,14 @@ import {MatDividerModule} from '@angular/material/divider';
 
 // 測試HTTP Client
 import { HttpClientModule } from '@angular/common/http';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GaugeComponent,
-    HelloComponent
+    HelloComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
